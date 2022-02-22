@@ -995,7 +995,7 @@ input:-webkit-autofill:focus {
   }
   .hide {
     transition: all 0.5s ease-in;
-    top: -400px;
+    top: -700px;
   }
 
   .inicio-container {
@@ -1093,7 +1093,7 @@ input:-webkit-autofill:focus {
   }
 
   .proyectos-img-container {
-    width: 200px;
+    width: 220px;
     height: 80px;
     position: relative;
     padding: 0;
