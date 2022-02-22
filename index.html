@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- iconos fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8824e79a3c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap;Pacifico&display=swap;"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- titulo -->
+    <title>Ezequiel Massa DEV Portfolio</title>
+  </head>
+
+  <body>
+    <header class="encabezado">
+      <!-- logo -->
+      <nav class="main-navbar">
+        <a href="#inicio" class="logo">
+          <img src="assets/images/logo.png" alt="logo de la pagina" />
+          <span>Ezequiel Massa DEV</span>
+        </a>
+
+        <!-- menu mobile -->
+        <div id="menu-mobile" class="menu-mobile">
+          <button class="mobile-btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+
+        <!-- menu -->
+        <ul id="menu" class="menu-list hide">
+          <li class="menu-items">
+            <a class="active" href="#inicio">Inicio</a>
+          </li>
+          <li class="menu-items">
+            <a href="#sobre-mi">Sobre Mi</a>
+          </li>
+          <li class="menu-items"><a href="#skills">Skills</a></li>
+          <li class="menu-items"><a href="#formacion">Formacion</a></li>
+          <li class="menu-items"><a href="#proyectos">Proyectos</a></li>
+          <li class="menu-items"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- seccion inicio -->
+    <main id="inicio">
+      <div class="inicio-container">
+        <p>Hola</p>
+        <p class="inicio">
+          Soy <span class="inicio-nombre">Ezequiel</span> Massa
+        </p>
+        <p class="inicio-descripcion">
+          Actualmente participo de los programas "Oracle ONE education" en Alura
+          Latam y tambien en "Argentina programa" donde estudio para convertirme
+          en Frontend Developer.
+        </p>
+      </div>
+
+      <div class="social-container">
+        <a href="https://www.linkedin.com/in/ezequiel-massa-dev/" target="blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/ezequielmassa.dev/" target="blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/EzequielMassa" target="blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <div class="profile-picture-container">
+        <div class="profile-picture-bg"></div>
+      </div>
+      <div class="wave-container">
+        <img src="assets/images/wave.svg" alt="" class="wave" />
+      </div>
+    </main>
+
+    <!-- seccion sobre mi -->
+    <section id="sobre-mi">
+      <h2>Acerca de mi</h2>
+      <h3>Estudiante Frontend</h3>
+      <p>
+        Soy Argentino , tengo 36 años y empeze mí trayectoria como auxiliar
+        contable , continúe en otras áreas distintas como asistente de agente de
+        transporte aduanero y telemarketer . Actualmente estudio programación
+        Frontend enfocándome en profesionalizarme en esta area. Soy una persona
+        curiosa , proactiva que le gusta incorporar nuevos conocimientos y
+        resolver problemas.
+      </p>
+
+      <a
+        href="assets/docs/cv-ezequiel-massa-dev.pdf"
+        class="cv-btn"
+        download="ezequiel massa dev CV"
+        >Donwload Cv</a
+      >
+    </section>
+
+    <!-- skills section -->
+    <!-- hard skills -->
+
+    <section id="skills">
+      <h2 class="hard-skills-title">Hard Skills</h2>
+      <div class="hard-skills-container">
+        <div class="skill-icon-container">
+          <i class="fab fa-html5"></i>
+          <h4>HTML5</h4>
+        </div>
+        <div class="skill-icon-container">
+          <i class="fab fa-css3"></i>
+          <h4>CSS3</h4>
+        </div>
+        <div class="skill-icon-container">
+          <i class="fab fa-js-square"></i>
+          <h4>JAVASCRIPT</h4>
+        </div>
+        <div class="skill-icon-container">
+          <i class="fab fa-git-square"></i>
+          <h4>GIT</h4>
+        </div>
+      </div>
+
+      <!-- soft skills -->
+
+      <h2 class="soft-skills-title">Soft Skills</h2>
+      <div class="soft-skills-container">
+        <div class="skill-icon-container">
+          <i class="fa-solid fa-people-arrows-left-right"></i>
+          <h4>Team Work</h4>
+        </div>
+        <div class="skill-icon-container">
+          <i class="fa-solid fa-comments"></i>
+          <h4>Comunicacion</h4>
+        </div>
+        <div class="skill-icon-container">
+          <i class="fa-solid fa-clock"></i>
+          <h4>Organizacion de tiempos</h4>
+        </div>
+        <div class="skill-icon-container">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h4>Estudio Constante</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- seccion formacion -->
+
+    <section id="formacion">
+      <h2 class="formacion-title">
+        Formacion Academica <i class="fa-solid fa-marker"></i>
+      </h2>
+      <div class="formacion-logos-container">
+        <div class="formacion-logo oracle-logo">
+          <img class="oracle-img" src="assets/images/oracle.png" alt="" />
+        </div>
+        <div class="formacion-logo alura-logo">
+          <img class="alura-img" src="assets/images/alura.png" alt="" />
+        </div>
+        <div class="formacion-logo ap-logo">
+          <img class="ap-img" src="assets/images/APLogo.png" alt="" />
+        </div>
+      </div>
+
+      <div class="formacion-descripcion">
+        <div class="formacion-descripcion-orc">
+          <p>Desarrolador Frontend</p>
+          <p>En curso</p>
+          <a
+            class="info-btn"
+            href="https://www.oracle.com/ar/education/oracle-next-education/"
+            target="blank"
+            >Mas Info</a
+          >
+        </div>
+        <div class="formacion-descripcion-alr">
+          <p>Desarrolador Frontend</p>
+          <p>En curso</p>
+          <a class="info-btn" href="https://www.aluracursos.com/" target="blank"
+            >Mas Info</a
+          >
+        </div>
+        <div class="formacion-descripcion-ap">
+          <p>Desarrolador Fullstack Jr</p>
+          <p>En curso</p>
+          <a
+            class="info-btn"
+            href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+            target="blank"
+            >Mas Info</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- seccion proyectos -->
+
+    <section id="proyectos">
+      <div class="proyectos-container">
+        <div class="proyectos-challenge">
+          <div class="proyectos-challenge-texto">
+            <h3>API Ecncriptadora de texto</h3>
+            <p>
+              Primer Challenge de "Oracle ONE" donde se solicito crear una API
+              capaz de codificar un texto introducido por el usuario siguiendo
+              ciertas validaciones , implementando un diseño brindado en
+              "figma". te invito a explorarlo!
+            </p>
+          </div>
+          <div class="proyectos-img-container">
+            <div class="proyectos-img-overlay">
+              <a
+                href="https://ezequielmassa.github.io/ChallengeOneLogicaLatam/"
+                target="blank"
+                >Ver Demo</a
+              >
+              <a
+                href="https://github.com/EzequielMassa/ChallengeOneLogicaLatam.git"
+                target="blank"
+                >Ver Repositorio</a
+              >
+            </div>
+            <img
+              class="proyectos-img"
+              src="assets/images/encriptador.PNG"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="proyectos-challenge">
+          <div class="proyectos-challenge-texto">
+            <h3>API Juego del ahorcado</h3>
+            <p>
+              Segundo Challenge de "Oracle ONE" donde se solicito crear el
+              clasico juego del ahorcado siguiendo ciertas validaciones como asi
+              tambien un diseño proporcionado en "figma".te invito a explorarlo!
+            </p>
+          </div>
+          <div class="proyectos-img-container">
+            <div class="proyectos-img-overlay">
+              <a
+                href="https://ezequielmassa.github.io/Challenge-HangMan-ORACLE-one/"
+                target="blank"
+                >Ver Demo</a
+              >
+              <a
+                href="https://github.com/EzequielMassa/Challenge-HangMan-ORACLE-one.git"
+                target="blank"
+                >Ver Repositorio</a
+              >
+            </div>
+            <img
+              class="proyectos-img"
+              src="assets/images/ahorcado.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- seccion contacto -->
+    <section id="contacto">
+      <div class="wave-container-end">
+        <img src="assets/images/wave2.svg" alt="" class="wave-end" />
+      </div>
+
+      <section class="form-container">
+        <form id="formulario-contacto" class="form" autocomplete="off">
+          <div class="form-contact-container">
+            <p>Contactame</p>
+            <label for="name">Nombre</label>
+            <input
+              type="text"
+              id="name"
+              class="input-pattern"
+              placeholder="Ingrese su nombre"
+              minlength="3"
+              maxlength="40"
+              required
+            />
+            <label for="correo">Email</label>
+            <input
+              type="email"
+              id="correo"
+              class="input-pattern"
+              placeholder="ejemplo@email.com"
+              maxlength="40"
+              required
+            />
+            <label for="asunto">Asunto</label>
+            <input
+              type="text"
+              id="asunto"
+              class="input-pattern"
+              placeholder="Ingrese el motivo"
+              minlength="3"
+              maxlength="40"
+            />
+          </div>
+          <div class="form-mensaje-container">
+            <textarea
+              form="formulario-contacto"
+              name="mensaje"
+              id="mensaje"
+              placeholder="Escribe un mensaje..."
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <input id="enviar-form" class="enviar" type="submit" value="Enviar" />
+        </form>
+      </section>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
