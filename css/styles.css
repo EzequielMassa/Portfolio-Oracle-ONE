@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   background-color: #f4f7ff;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
-  padding: 0 2rem;
+  padding: 0 20px;
 }
 
 .logo {
@@ -48,7 +48,7 @@ body {
 .mobile-btn {
   border: none;
   background-color: transparent;
-  margin-right: 3rem;
+  margin-right: 30px;
 }
 
 .mobile-btn i {
@@ -56,7 +56,7 @@ body {
 }
 
 .menu-list {
-  margin: 0.5rem 0;
+  margin: 5px 0;
 }
 
 .menu-items {
@@ -69,10 +69,10 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #6c707c;
-  padding: 1rem;
+  padding: 10px;
   transition: all 0.3s;
 }
 
@@ -93,7 +93,7 @@ main,
   height: 100vh;
   position: relative;
   background-color: #edf1fd;
-  padding: 2rem 0;
+  padding: 20px 0;
 }
 
 .inicio-container {
@@ -102,7 +102,7 @@ main,
   flex-direction: column;
   position: absolute;
   top: 30%;
-  margin-left: 3rem;
+  margin-left: 30px;
 }
 
 .inicio-container p:first-child,
@@ -110,8 +110,8 @@ main,
   color: #6c707c;
   font-size: 2.2rem;
   font-weight: 300;
-  line-height: 3rem;
-  margin: 1rem 0;
+  line-height: 30px;
+  margin: 10px 0;
 }
 
 .inicio-descripcion {
@@ -121,7 +121,7 @@ main,
 .inicio {
   font-size: 4rem;
   font-weight: 700;
-  margin: 1rem 0;
+  margin: 10px 0;
   color: #292929;
 }
 
@@ -160,7 +160,7 @@ main,
 }
 
 .profile-picture-bg {
-  padding: 21rem;
+  padding: 210px;
   background-image: url(../assets/images/profile-picture.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -179,21 +179,21 @@ main,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem;
+  padding: 50px;
 }
 
 #sobre-mi h2 {
   font-size: 6rem;
   color: #17d1ac;
   margin: 0;
-  margin: 0 2rem;
+  margin: 0 20px;
 }
 
 #sobre-mi h3 {
   font-size: 4rem;
   color: #ffffff;
   font-weight: 400;
-  margin: 0 2rem;
+  margin: 0 20px;
 }
 
 #sobre-mi p {
@@ -201,25 +201,25 @@ main,
   font-size: 1.4rem;
   width: 70%;
   font-weight: 300;
-  line-height: 2rem;
-  margin: 0 2rem;
+  line-height: 20px;
+  margin: 0 20px;
 }
 
 .cv-btn {
-  width: 15rem;
+  width: 150px;
   display: inline-block;
   background-color: #17d1ac;
-  padding: 2rem 1rem;
+  padding: 20px 10px;
   text-align: center;
   text-decoration: none;
   color: #161616;
   font-size: 1rem;
   font-weight: 700;
-  border-radius: 1rem;
+  border-radius: 10px;
   position: absolute;
   top: 80%;
   transition: all 0.3s;
-  margin: 0 2rem;
+  margin: 0 20px;
 }
 
 .cv-btn:hover {
