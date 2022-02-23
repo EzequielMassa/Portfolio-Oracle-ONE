@@ -939,6 +939,7 @@ input:-webkit-autofill:focus {
 
   .proyectos-challenge-texto {
     text-align: center;
+    width: 100%;
   }
 
   .form {
