@@ -484,12 +484,13 @@ main,
 #contacto {
   position: relative;
   background-color: #161616;
+  height: 200vh;
 }
 
-/* .wave-end {
+.wave-end {
   position: absolute;
   top: 0;
-} */
+}
 
 .form-container-main {
   position: absolute;
