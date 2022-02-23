@@ -402,7 +402,6 @@ main,
   width: 95%;
   height: 85%;
   padding: 30px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .proyectos-challenge {
@@ -883,7 +882,7 @@ input:-webkit-autofill:focus {
 
   .soft-skills-title {
     font-size: 40px;
-    top: 50%;
+    top: 52%;
   }
 
   .hard-skills-container {
@@ -1108,15 +1107,15 @@ input:-webkit-autofill:focus {
   }
 
   .proyectos-container {
-    width: 90%;
-    height: 90%;
-    top: 6%;
-    padding: 10px;
+    width: 95%;
+    height: 80%;
+    top: 12%;
+    padding: 5px;
   }
 
   .proyectos-img-container {
     width: 220px;
-    height: 80px;
+    height: 100px;
     position: relative;
     padding: 0;
   }
