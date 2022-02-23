@@ -493,13 +493,12 @@ main,
 }
 
 .form-container {
-  margin-top: 15%;
 }
 
 .form {
   display: flex;
   width: 90%;
-  margin: 120px auto 0 auto;
+  margin: 0px auto;
 }
 
 .form-contact-container {
