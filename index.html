@@ -290,51 +290,58 @@
       </div>
 
       <section class="form-container">
-        <form id="formulario-contacto" class="form" autocomplete="off">
-          <div class="form-contact-container">
-            <p>Contactame</p>
-            <label for="name">Nombre</label>
+        <div class="form-container-main">
+          <form id="formulario-contacto" class="form" autocomplete="off">
+            <div class="form-contact-container">
+              <p>Contactame</p>
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                class="input-pattern"
+                placeholder="Ingrese su nombre"
+                minlength="3"
+                maxlength="40"
+                required
+              />
+              <label for="correo">Email</label>
+              <input
+                type="email"
+                id="correo"
+                class="input-pattern"
+                placeholder="ejemplo@email.com"
+                maxlength="40"
+                required
+              />
+              <label for="asunto">Asunto</label>
+              <input
+                type="text"
+                id="asunto"
+                class="input-pattern"
+                placeholder="Ingrese el motivo"
+                minlength="3"
+                maxlength="40"
+              />
+            </div>
+            <div class="form-mensaje-container">
+              <textarea
+                form="formulario-contacto"
+                name="mensaje"
+                id="mensaje"
+                placeholder="Escribe un mensaje..."
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
             <input
-              type="text"
-              id="name"
-              class="input-pattern"
-              placeholder="Ingrese su nombre"
-              minlength="3"
-              maxlength="40"
-              required
+              id="enviar-form"
+              class="enviar"
+              type="submit"
+              value="Enviar"
             />
-            <label for="correo">Email</label>
-            <input
-              type="email"
-              id="correo"
-              class="input-pattern"
-              placeholder="ejemplo@email.com"
-              maxlength="40"
-              required
-            />
-            <label for="asunto">Asunto</label>
-            <input
-              type="text"
-              id="asunto"
-              class="input-pattern"
-              placeholder="Ingrese el motivo"
-              minlength="3"
-              maxlength="40"
-            />
-          </div>
-          <div class="form-mensaje-container">
-            <textarea
-              form="formulario-contacto"
-              name="mensaje"
-              id="mensaje"
-              placeholder="Escribe un mensaje..."
-              cols="30"
-              rows="10"
-              required
-            ></textarea>
-          </div>
-          <input id="enviar-form" class="enviar" type="submit" value="Enviar" />
-        </form>
+          </form>
+        </div>
       </section>
     </section>
 
