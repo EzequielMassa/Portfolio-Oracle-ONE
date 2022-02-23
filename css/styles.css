@@ -492,9 +492,6 @@ main,
   top: 0;
 }
 
-.form-container {
-}
-
 .form {
   display: flex;
   width: 90%;
@@ -563,16 +560,13 @@ input:-webkit-autofill:focus {
 }
 
 .form-mensaje-container textarea {
+  position: static;
   width: 100%;
-  height: 95%;
-  font-size: 15px;
+  font-size: 14px;
   color: #ffffff;
   background-color: #161616;
   border: 1px solid rgba(255, 255, 255, 0.1);
   resize: none;
-}
-.form-mensaje-container textarea:focus {
-  border: 1px solid #17d1ac;
 }
 
 .enviar {
