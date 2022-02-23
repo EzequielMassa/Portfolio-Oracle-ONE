@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   background-color: #f4f7ff;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 .logo {
@@ -130,7 +130,7 @@ main,
 
 .social-container {
   position: absolute;
-  bottom: 50px;
+  bottom: 60px;
   left: 50px;
   display: flex;
   z-index: 75;
@@ -396,7 +396,7 @@ main,
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  top: 11%;
+  top: 9%;
   background-color: #292929;
   margin: 0 auto;
   width: 95%;
@@ -418,6 +418,7 @@ main,
   line-height: 20px;
   letter-spacing: 1px;
   font-weight: 300;
+  width: 70%;
 }
 
 .proyectos-challenge-texto h3 {
@@ -426,7 +427,7 @@ main,
 }
 
 .proyectos-img-container {
-  width: 600px;
+  width: 30%;
   height: 200px;
   position: relative;
   padding: 0;
@@ -490,6 +491,10 @@ main,
 .wave-end {
   position: absolute;
   top: 0;
+}
+
+.form-container {
+  margin-top: 15%;
 }
 
 .form {
@@ -574,7 +579,7 @@ input:-webkit-autofill:focus {
 
 .enviar {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   left: 30%;
   padding: 5px 200px;
   font-size: 12px;
@@ -660,7 +665,7 @@ input:-webkit-autofill:focus {
 
   .main-navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
   }
@@ -670,7 +675,7 @@ input:-webkit-autofill:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: 40%;
     background-color: #17d1ac;
@@ -787,21 +792,6 @@ input:-webkit-autofill:focus {
 
   .logo img {
     width: 30px;
-  }
-
-  .menu-list {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    background-color: #17d1ac;
-    margin: 0;
-    z-index: 400;
-    top: 20;
-    left: 0;
   }
 
   .mobile-btn i {
@@ -982,17 +972,26 @@ input:-webkit-autofill:focus {
 
 /* pantallas chicas */
 @media screen and (max-width: 442px) {
+  .main-navbar {
+    padding: 20px 20px;
+  }
+
   .logo {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   .logo img {
-    width: 20px;
+    width: 30px;
   }
 
   .mobile-btn i {
-    font-size: 15px;
+    font-size: 25px;
   }
+
+  .menu-items a {
+    font-size: 20px;
+  }
+
   .hide {
     transition: all 0.5s ease-in;
     top: -700px;
@@ -1000,17 +999,31 @@ input:-webkit-autofill:focus {
 
   .inicio-container {
     width: 90%;
-    top: 10%;
+    top: 15%;
     margin-left: 15px;
   }
 
   .inicio {
+    font-size: 30px;
+  }
+
+  .inicio-container p:first-child {
     font-size: 25px;
   }
 
+  .inicio-descripcion {
+    font-size: 18px;
+  }
+
   .social-container {
-    bottom: 35%;
+    bottom: 40%;
     left: 30%;
+  }
+
+  .profile-picture-bg {
+    padding: 160px;
+    background-position: bottom;
+    background-size: 70%;
   }
 
   #sobre-mi h2 {
