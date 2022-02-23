@@ -92,7 +92,6 @@ main,
   height: 100vh;
   position: relative;
   background-color: #edf1fd;
-  padding: 20px 0;
 }
 
 .inicio-container {
@@ -487,10 +486,10 @@ main,
   background-color: #161616;
 }
 
-.wave-end {
+/* .wave-end {
   position: absolute;
   top: 0;
-}
+} */
 
 .form-container-main {
   position: absolute;
@@ -607,6 +606,7 @@ input:-webkit-autofill:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .footer {
