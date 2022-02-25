@@ -101,6 +101,7 @@ main,
   position: absolute;
   top: 30%;
   margin-left: 30px;
+  animation: slide 1s ease-in;
 }
 
 .inicio-container p:first-child,
@@ -133,6 +134,7 @@ main,
   left: 50px;
   display: flex;
   z-index: 75;
+  animation: updown 1s ease;
 }
 
 .social-container a {
@@ -144,6 +146,15 @@ main,
   color: rgba(18, 17, 17, 0.4);
   font-size: 25px;
   transition: all 0.5s;
+}
+
+@keyframes updown {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
 
 .social-container i:hover {
@@ -164,6 +175,7 @@ main,
   background-position: right bottom;
   background-size: 100%;
   filter: grayscale(100%) drop-shadow(2px -3px 4px #17d1ac);
+  animation: fade 1.5s ease-in;
 }
 
 .wave {
@@ -1308,5 +1320,23 @@ input:-webkit-autofill:focus {
 
   .footer img {
     width: 5px;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
