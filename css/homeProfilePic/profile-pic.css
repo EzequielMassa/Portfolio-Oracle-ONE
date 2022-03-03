@@ -8,7 +8,7 @@
   width: 100%;
   height: 40%;
   filter: grayscale(100%) drop-shadow(2px -3px 4px #17d1ac);
-  animation: aparecer 0.5s;
+  animation: aparecer 2s ease;
 }
 
 @keyframes aparecer {

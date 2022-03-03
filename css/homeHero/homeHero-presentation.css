@@ -1,7 +1,7 @@
 .hero-presentation {
   padding: 10% 2em;
   text-align: center;
-  animation: deslizar 1s;
+  animation: deslizar 1s ease;
 }
 
 @keyframes deslizar {
