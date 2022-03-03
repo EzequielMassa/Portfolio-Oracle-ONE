@@ -1,6 +1,16 @@
 .hero-presentation {
   padding: 10% 2em;
   text-align: center;
+  animation: deslizar 1s;
+}
+
+@keyframes deslizar {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 /* responsive */
