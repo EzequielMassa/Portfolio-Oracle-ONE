@@ -1,0 +1,25 @@
+.formacion__container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+  .formacion__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 6em;
+  }
+  .formacion__container__item {
+    margin: 0 2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .formacion__container {
+    padding-top: 5em;
+  }
+  .formacion__container__item {
+    width: 30%;
+  }
+}

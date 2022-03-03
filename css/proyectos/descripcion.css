@@ -1,0 +1,14 @@
+.proyectos__descripcion {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+  .proyectos__descripcion {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}

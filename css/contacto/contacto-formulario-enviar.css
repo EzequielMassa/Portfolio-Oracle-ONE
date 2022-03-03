@@ -1,0 +1,26 @@
+.contacto__formulario__enviar {
+  background-color: var(--main-color);
+  color: var(--main-bg-color);
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.5em;
+  transition: all 0.5s ease;
+}
+
+.contacto__formulario__enviar:hover {
+  background-color: #ffffff;
+  transform: scalex(1.1);
+  color: var(--main-color);
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+  .contacto__formulario__enviar {
+    width: 50%;
+    padding: 0.5em;
+    grid-column: 1 / 3;
+  }
+}

@@ -1,0 +1,11 @@
+.main-nav-list {
+  margin-top: 6em;
+}
+
+/* responsive */
+@media only screen and (min-width: 769px) {
+  .main-nav-list {
+    margin: 0;
+    display: flex;
+  }
+}

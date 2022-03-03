@@ -1,0 +1,7 @@
+.formacion__descripcion {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--sec-color);
+  text-align: center;
+  line-height: 1.5rem;
+}

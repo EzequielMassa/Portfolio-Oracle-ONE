@@ -1,0 +1,10 @@
+.social a {
+  color: var(--frth-color);
+  font-size: 2.8rem;
+  margin: 0 0.6em;
+  transition: color 0.5s ease;
+}
+.social a:hover {
+  cursor: pointer;
+  color: var(--main-color);
+}

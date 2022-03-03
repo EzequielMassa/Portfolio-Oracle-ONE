@@ -1,0 +1,15 @@
+.proyectos__img--overlay__btn {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #161616;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+
+.proyectos__img--overlay__btn:hover {
+  cursor: pointer;
+  color: #17d1ac;
+  transform: scale(1.1);
+}

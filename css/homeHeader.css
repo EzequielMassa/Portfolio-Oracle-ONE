@@ -1,0 +1,10 @@
+.homeHeader {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  z-index: 150;
+}

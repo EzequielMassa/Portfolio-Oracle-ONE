@@ -1,0 +1,17 @@
+.cv-btn {
+  display: block;
+  margin: 0 auto;
+  width: 12em;
+  background-color: var(--main-color);
+  padding: 1.5em;
+  font-weight: 700;
+  color: var(--sec-color);
+  border-radius: 1em;
+  transition: all 0.5s;
+}
+
+.cv-btn:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  transform: scale(1.1);
+}

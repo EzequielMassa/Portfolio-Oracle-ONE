@@ -1,0 +1,8 @@
+#skills h3 {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1em;
+  text-decoration: underline;
+  text-decoration-color: var(--main-color);
+}

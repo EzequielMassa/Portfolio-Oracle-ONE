@@ -1,0 +1,40 @@
+.main-nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-color: var(--main-color);
+  width: 50%;
+  z-index: 200;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.mobile-btn-open,
+.mobile-btn-close {
+  font-size: 2.5em;
+  margin: 0 1em;
+  cursor: pointer;
+  float: right;
+}
+
+.mobile-btn-close {
+  margin: 0.3em 1.5em;
+}
+
+/* responsive */
+@media only screen and (min-width: 769px) {
+  .mobile-btn-open,
+  .mobile-btn-close {
+    display: none;
+  }
+
+  .main-nav {
+    position: initial;
+    width: auto;
+    height: auto;
+    background-color: inherit;
+    transform: translateX(0);
+    display: flex;
+  }
+}

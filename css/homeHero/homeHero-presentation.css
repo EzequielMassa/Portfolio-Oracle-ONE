@@ -1,0 +1,18 @@
+.hero-presentation {
+  padding: 10% 2em;
+  text-align: center;
+}
+
+/* responsive */
+@media only screen and (min-width: 769px) {
+  .hero-presentation {
+    text-align: left;
+    padding: 35% 2em 10% 2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero-presentation {
+    padding: 20% 2em 10% 2em;
+  }
+}

@@ -1,0 +1,28 @@
+.formacion__masInfo {
+  background-color: var(--main-bg-color);
+  color: #ffffff;
+  padding: 1em 1.5em;
+  text-align: center;
+  margin: 1em auto;
+  display: block;
+  width: 30%;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.formacion__masInfo:hover {
+  color: var(--main-color);
+  transform: scale(1.1);
+  border: 1px solid var(--main-color);
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+  .formacion__masInfo {
+    padding: 1em 3em;
+
+    margin: 2em auto;
+
+    width: 80%;
+  }
+}

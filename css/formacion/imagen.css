@@ -1,0 +1,31 @@
+.formacion__imagen {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 50%;
+  height: 8em;
+  background-color: black;
+  border-radius: 15px;
+  margin: 1em auto;
+}
+
+.orc {
+  background-image: url("../../assets/images/oracle.png");
+  background-color: #47423e;
+}
+
+.alu {
+  background-image: url("../../assets/images/alura.png");
+  background-color: white;
+}
+
+.ap {
+  background-image: url("../../assets/images/APLogo.png");
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+  .formacion__imagen {
+    width: 100%;
+  }
+}

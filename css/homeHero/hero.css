@@ -1,0 +1,15 @@
+.hero {
+  position: absolute;
+  top: 10%;
+}
+
+/* responsive */
+@media only screen and (min-width: 769px) {
+  .hero {
+    top: 0;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

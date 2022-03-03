@@ -1,0 +1,32 @@
+.input-pattern,
+.input-pattern:focus,
+.input-pattern:active {
+  outline: none;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--thrd-color);
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto 0.5em auto;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px #161616 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.input-pattern::placeholder {
+  opacity: 0.5;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+
+.input-pattern:focus {
+  border-bottom: 1px solid #17d1ac;
+  transition: all ease 0.5s;
+}

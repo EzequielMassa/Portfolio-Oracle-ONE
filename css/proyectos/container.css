@@ -1,0 +1,37 @@
+.proyectos__container {
+  width: 90%;
+  height: 98vh;
+  background-color: var(--main-bg-color);
+  margin: 0 auto;
+  padding: 7em 1em 0 1em;
+  overflow: auto;
+}
+
+.proyectos__img__container {
+  position: relative;
+  width: 25em;
+  margin: 2em auto;
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+  .proyectos__container {
+    padding: 5em 1em 0 1em;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+    width: 95%;
+  }
+
+  .proyectos__img__container {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .proyectos__container {
+    grid-template-columns: 2fr 1fr;
+  }
+}

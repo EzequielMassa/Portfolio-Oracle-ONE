@@ -1,0 +1,8 @@
+.main__footer__link {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+.main__footer__link:hover {
+  color: var(--main-color);
+}

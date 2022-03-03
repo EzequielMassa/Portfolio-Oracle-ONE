@@ -1,0 +1,31 @@
+.formacion__title {
+  color: var(--sec-color);
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1.5em;
+  padding-top: 3em;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: var(--main-color);
+}
+
+.fa-marker {
+  color: var(--main-color);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+  .formacion__title {
+    font-size: 3rem;
+    padding-top: 4em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .formacion__title {
+    font-size: 4rem;
+    padding-top: 3em;
+  }
+}
