@@ -14,8 +14,11 @@
   .contacto__formulario {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2em;
+    grid-template-rows: 2fr 2em;
     gap: 2em 1em;
     justify-items: center;
-  }
+}
+
+.input__container {
+  width: 90%;
 }

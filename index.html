@@ -65,6 +65,7 @@
   <link rel="stylesheet" href="css/footer/footer-logo.css">
   <link rel="stylesheet" href="css/footer/footer-name.css">
   <link rel="stylesheet" href="css/footer/footer-links.css">
+  <link rel="stylesheet" href="css/error.css">
 
 
   <title>Ezequiel Massa DEV Portfolio</title>
@@ -248,52 +249,78 @@
   <section class="contacto" id="contacto">
     <img class="wave-end" src="assets/images/wave2.svg" alt="imagen decorativa">
 <h2 class="contacto__titulo">Contactame</h2>
-<form id="contacto__formulario" class="contacto__formulario" autocomplete="off">
+<form action="https://formsubmit.co/ezequielmassa.dev@gmail.com" method="POST" id="contacto__formulario" class="contacto__formulario" autocomplete="off">
   <div class="contacto__formulario__item">
-    <label class="contacto__formulario__label" for="name">Nombre</label>
-                <input
-                  type="text"
-                  id="name"
-                  class="input-pattern"
-                  placeholder="Ingrese su nombre"
-                  minlength="3"
-                  maxlength="40"
-                  required
-                />
-                <label class="contacto__formulario__label" for="correo">Email</label>
-                <input
-                  type="email"
-                  id="correo"
-                  class="input-pattern"
-                  placeholder="ejemplo@email.com"
-                  maxlength="60"
-                  required
-                />
-                <label class="contacto__formulario__label" for="asunto">Asunto</label>
-                <input
-                  type="text"
-                  id="asunto"
-                  class="input-pattern"
-                  placeholder="Ingrese el motivo"
-                  minlength="3"
-                  maxlength="40"
-                />
+    <div class="input__container contacto__formulario__item">
+      <label class="contacto__formulario__label" for="name">Nombre</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="input-pattern input-text-validate"
+                    placeholder="Ingrese su nombre"
+                    minlength="3"
+                    maxlength="50"
+                    required
+                    data-type="nombre"
+                  />
+                  <span class="error__mensaje error"></span>
+    </div>
+                <div class="input__container contacto__formulario__item">
+                  <label class="contacto__formulario__label" for="correo">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="correo"
+                    class="input-pattern input-text-validate"
+                    placeholder="ejemplo@email.com"
+                    maxlength="60"
+                    required
+                    data-type="email"
+                    pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+                  />
+                   <span class="error__mensaje error"></span>
+                </div>
+                <div class="input__container contacto__formulario__item">
+                  <label class="contacto__formulario__label" for="asunto">Asunto</label>
+                  <input
+                    type="text"
+                    id="asunto"
+                    name="subject"
+                    class="input-pattern input-text-validate"
+                    placeholder="Ingrese el motivo"
+                    minlength="5"
+                    maxlength="50"
+                    data-type="asunto"
+                    required
+          
+                  />
+                   <span class="error__mensaje error"></span>
+                </div>
   </div>
-               <textarea
-               class="contacto__formulario__mensaje"
-                form="contacto__formulario"
-                name="mensaje"
-                id="mensaje"
-                placeholder="Escribe un mensaje..."
-                cols="30"
-                rows="10"
-                required
-              ></textarea>
+               <div class="input__container contacto__formulario__item">
+                  <label class="contacto__formulario__label" for="mensaje">Mensaje</label>
+                 <textarea
+                 class="contacto__formulario__mensaje  input-text-validate"
+                  form="contacto__formulario"
+                  name="mensaje"
+                  id="mensaje"
+                  placeholder="Escribe un mensaje..."
+                  cols="30"
+                  rows="10"
+                  required
+                  minlength="10"
+                  maxlength="300"
+                   data-type="mensaje"></textarea>
+                 <span class="error__mensaje error"></span>
+               </div>
                <input
               id="enviar-form"
               class="contacto__formulario__enviar"
               type="submit"
               value="Enviar"
+              data-send
+             
             />
 </form>
   </section>

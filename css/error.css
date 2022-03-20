@@ -1,0 +1,8 @@
+.error {
+  text-align: center;
+  color: red;
+}
+
+.error__mensaje {
+  display: block;
+}

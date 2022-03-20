@@ -2,7 +2,7 @@
 .input-pattern:focus,
 .input-pattern:active {
   outline: none;
-  width: 90%;
+  width: 100%;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid var(--thrd-color);

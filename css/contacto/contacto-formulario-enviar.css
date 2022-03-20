@@ -16,6 +16,13 @@
   color: var(--main-color);
 }
 
+.contacto__formulario__enviar:disabled,
+.contacto__formulario__enviar:disabled:hover {
+  background-color: gray;
+  transform: scalex(1);
+  color: initial;
+}
+
 /* responsive */
 @media only screen and (min-width: 768px) {
   .contacto__formulario__enviar {
