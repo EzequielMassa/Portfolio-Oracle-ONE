@@ -1,348 +1,468 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;700&display=swap"
-    rel="stylesheet" />
+    <!-- fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/8824e79a3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/homeHeader.css" />
+    <link rel="stylesheet" href="css/logo/logo.css" />
+    <link rel="stylesheet" href="css/logo/logo-img.css" />
+    <link rel="stylesheet" href="css/logo/logo-text.css" />
+    <link rel="stylesheet" href="css/mainNav/main-nav.css" />
+    <link rel="stylesheet" href="css/mainNav/main-nav-abrir-menu.css" />
+    <link rel="stylesheet" href="css/mainNav/main-nav-list.css" />
+    <link rel="stylesheet" href="css/mainNav/main-nav-item.css" />
+    <link rel="stylesheet" href="css/homeHero.css" />
+    <link rel="stylesheet" href="css/homeHero/hero.css" />
+    <link rel="stylesheet" href="css/homeHero/homeHero-presentation.css" />
+    <link rel="stylesheet" href="css/homeHero/homeHero-text.css" />
+    <link rel="stylesheet" href="css/homeSocial/social.css" />
+    <link rel="stylesheet" href="css/homeSocial/social-icons.css" />
+    <link rel="stylesheet" href="css/homeWave/wave.css" />
+    <link rel="stylesheet" href="css/homeProfilePic/profile-pic.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/about/about-text.css" />
+    <link rel="stylesheet" href="css/about/about-cvButton.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/skills/title.css" />
+    <link rel="stylesheet" href="css/skills/hardSkills.css" />
+    <link rel="stylesheet" href="css/skills/skills-icons.css" />
+    <link rel="stylesheet" href="css/formacion.css" />
+    <link rel="stylesheet" href="css/formacion/title.css" />
+    <link rel="stylesheet" href="css/formacion/container.css" />
+    <link rel="stylesheet" href="css/formacion/imagen.css" />
+    <link rel="stylesheet" href="css/formacion/descripcion.css" />
+    <link rel="stylesheet" href="css/formacion/masInfo.css" />
+    <link rel="stylesheet" href="css/proyectos.css" />
+    <link rel="stylesheet" href="css/proyectos/container.css" />
+    <link rel="stylesheet" href="css/proyectos/titulo.css" />
+    <link rel="stylesheet" href="css/proyectos/descripcion.css" />
+    <link rel="stylesheet" href="css/proyectos/imagen.css" />
+    <link rel="stylesheet" href="css/proyectos/img-overlay.css" />
+    <link rel="stylesheet" href="css/proyectos/img-overlay-btn.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/contacto/contacto-titulo.css" />
+    <link rel="stylesheet" href="css/contacto/contacto-formulario.css" />
+    <link rel="stylesheet" href="css/contacto/contacto-formulario-label.css" />
+    <link rel="stylesheet" href="css/contacto/contacto-inputs.css" />
+    <link
+      rel="stylesheet"
+      href="css/contacto/contacto-formulario-mensaje.css"
+    />
+    <link rel="stylesheet" href="css/contacto/contacto-formulario-enviar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/footer/footer-text.css" />
+    <link rel="stylesheet" href="css/footer/footer-logo.css" />
+    <link rel="stylesheet" href="css/footer/footer-name.css" />
+    <link rel="stylesheet" href="css/footer/footer-links.css" />
+    <link rel="stylesheet" href="css/error.css" />
 
-  <!-- fontawesome icons -->
-  <script src="https://kit.fontawesome.com/8824e79a3c.js" crossorigin="anonymous"></script>
-  <!-- css -->
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/general.css" />
-  <link rel="stylesheet" href="css/homeHeader.css">
-  <link rel="stylesheet" href="css/logo/logo.css">
-  <link rel="stylesheet" href="css/logo/logo-img.css">
-  <link rel="stylesheet" href="css/logo/logo-text.css">
-  <link rel="stylesheet" href="css/mainNav/main-nav.css">
-  <link rel="stylesheet" href="css/mainNav/main-nav-abrir-menu.css">
-  <link rel="stylesheet" href="css/mainNav/main-nav-list.css">
-  <link rel="stylesheet" href="css/mainNav/main-nav-item.css">
-  <link rel="stylesheet" href="css/homeHero.css">
-  <link rel="stylesheet" href="css/homeHero/hero.css">
-  <link rel="stylesheet" href="css/homeHero/homeHero-presentation.css">
-  <link rel="stylesheet" href="css/homeHero/homeHero-text.css">
-  <link rel="stylesheet" href="css/homeSocial/social.css">
-  <link rel="stylesheet" href="css/homeSocial/social-icons.css">
-  <link rel="stylesheet" href="css/homeWave/wave.css">
-  <link rel="stylesheet" href="css/homeProfilePic/profile-pic.css">
-  <link rel="stylesheet" href="css/about.css">
-  <link rel="stylesheet" href="css/about/about-text.css">
-  <link rel="stylesheet" href="css/about/about-cvButton.css">
-  <link rel="stylesheet" href="css/skills.css">
-  <link rel="stylesheet" href="css/skills/title.css">
-  <link rel="stylesheet" href="css/skills/hardSkills.css">
-  <link rel="stylesheet" href="css/skills/skills-icons.css">
-  <link rel="stylesheet" href="css/formacion.css">
-  <link rel="stylesheet" href="css/formacion/title.css">
-  <link rel="stylesheet" href="css/formacion/container.css">
-  <link rel="stylesheet" href="css/formacion/imagen.css">
-  <link rel="stylesheet" href="css/formacion/descripcion.css">
-  <link rel="stylesheet" href="css/formacion/masInfo.css">
-  <link rel="stylesheet" href="css/proyectos.css">
-  <link rel="stylesheet" href="css/proyectos/container.css">
-  <link rel="stylesheet" href="css/proyectos/titulo.css">
-  <link rel="stylesheet" href="css/proyectos/descripcion.css">
-  <link rel="stylesheet" href="css/proyectos/imagen.css">
-  <link rel="stylesheet" href="css/proyectos/img-overlay.css">
-  <link rel="stylesheet" href="css/proyectos/img-overlay-btn.css">
-  <link rel="stylesheet" href="css/contacto.css">
-  <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
-  <link rel="stylesheet" href="css/contacto/contacto-formulario.css">
-  <link rel="stylesheet" href="css/contacto/contacto-formulario-label.css">
-  <link rel="stylesheet" href="css/contacto/contacto-inputs.css">
-  <link rel="stylesheet" href="css/contacto/contacto-formulario-mensaje.css">
-  <link rel="stylesheet" href="css/contacto/contacto-formulario-enviar.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/footer/footer-text.css">
-  <link rel="stylesheet" href="css/footer/footer-logo.css">
-  <link rel="stylesheet" href="css/footer/footer-name.css">
-  <link rel="stylesheet" href="css/footer/footer-links.css">
-  <link rel="stylesheet" href="css/error.css">
+    <title>Ezequiel Massa DEV Portfolio</title>
+  </head>
 
-
-  <title>Ezequiel Massa DEV Portfolio</title>
-</head>
-
-<body>
-  <!-- header navbar -->
-  <header class="homeHeader">
-    <div class="logo">
-      <img src="assets/images/logo.png" alt="logo del desarrolador" class="logo-img" />
-      <h4 class="logo-text">Ezequiel Massa DEV</h4>
-    </div>
-    <nav class="main-nav" data-main-nav>
-      <i class="fa-solid fa-xmark mobile-btn-close" data-mobile-btn-close></i>
-      <ul class="main-nav-list">
-        <li class="main-nav-item"><a class="main-nav-link active" href="#hero-main" data-link-item>Inicio</a></li>
-      </ul>
-      <ul class="main-nav-list">
-        <li class="main-nav-item"><a class="main-nav-link" href="#about-main" data-link-item>Sobre mi</a></li>
-      </ul>
-      <ul class="main-nav-list">
-        <li class="main-nav-item"><a class="main-nav-link"  href="#skills" data-link-item>Skills</a></li>
-      </ul>
-      <ul class="main-nav-list">
-        <li class="main-nav-item"><a  class="main-nav-link"  href="#formacion" data-link-item>Formacion</a></li>
-      </ul>
-      <ul class="main-nav-list">
-        <li class="main-nav-item"><a class="main-nav-link"  href="#proyectos" data-link-item>Proyectos</a></li>
-      </ul>
-      <ul class="main-nav-list">
-        <li class="main-nav-item"><a class="main-nav-link"  href="#contacto" data-link-item>Contacto</a></li>
-      </ul>
-    </nav>
-    <i class="fa-solid fa-bars mobile-btn-open" data-mobile-btn-open></i>
-  </header>
-  <!-- hero -->
-  <div class="home__hero">
-    <section id="hero-main" class="hero">
-      <div class="hero-presentation">
-        <h2>Hola</h2>
-        <h1>Soy <span class="hero-nombre">Ezequiel</span> Massa</h1>
-        <p>
-          Actualmente participo de los programas "Oracle ONE education" en
-          Alura Latam y tambien en "Argentina programa" donde estudio para
-          convertirme en Frontend Developer.
-        </p>
+  <body>
+    <!-- header navbar -->
+    <header class="homeHeader">
+      <div class="logo">
+        <img
+          src="assets/images/logo.png"
+          alt="logo del desarrolador"
+          class="logo-img"
+        />
+        <h4 class="logo-text">Ezequiel Massa DEV</h4>
       </div>
+      <nav class="main-nav" data-main-nav>
+        <i class="fa-solid fa-xmark mobile-btn-close" data-mobile-btn-close></i>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link active" href="#hero-main" data-link-item
+              >Inicio</a
+            >
+          </li>
+        </ul>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#about-main" data-link-item
+              >Sobre mi</a
+            >
+          </li>
+        </ul>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#skills" data-link-item>Skills</a>
+          </li>
+        </ul>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#formacion" data-link-item
+              >Formacion</a
+            >
+          </li>
+        </ul>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#proyectos" data-link-item
+              >Proyectos</a
+            >
+          </li>
+        </ul>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#contacto" data-link-item
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-bars mobile-btn-open" data-mobile-btn-open></i>
+    </header>
+    <!-- hero -->
+    <div class="home__hero">
+      <section id="hero-main" class="hero slideRight">
+        <div class="hero-presentation">
+          <h2>Hola</h2>
+          <h1>Soy <span class="hero-nombre">Ezequiel</span> Massa</h1>
+          <p>
+            Actualmente participo de los programas "Oracle ONE education" en
+            Alura Latam y tambien en "Argentina programa" donde estudio para
+            convertirme en Frontend Developer.
+          </p>
+        </div>
 
-      <div class="social">
-        <a href="https://www.linkedin.com/in/ezequiel-massa-dev/" target="blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/ezequielmassa.dev/" target="blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/EzequielMassa" target="blank"><i class="fab fa-github"></i></a>
+        <div class="social floating">
+          <a
+            href="https://www.linkedin.com/in/ezequiel-massa-dev/"
+            target="blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/ezequielmassa.dev/" target="blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/EzequielMassa" target="blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </section>
+      <div class="wave"></div>
+      <div class="profile-pic pullUp"></div>
+    </div>
+    <!-- acerca de mi -->
+    <main id="about-main">
+      <section class="about-main-text">
+        <h2>Acerca de mi</h2>
+        <h3>Estudiante Frontend</h3>
+        <p>
+          Soy Argentino , tengo 36 años y empeze mí trayectoria como auxiliar
+          contable , continúe en otras áreas distintas como asistente de agente
+          de transporte aduanero y telemarketer . Actualmente estudio
+          programación Frontend enfocándome en profesionalizarme en esta area.
+          Soy una persona curiosa , proactiva que le gusta incorporar nuevos
+          conocimientos y resolver problemas.
+        </p>
+        <a
+          href="assets/docs/cv-ezequiel-massa-dev.pdf"
+          class="cv-btn"
+          download="ezequiel massa dev CV"
+          >Download Cv</a
+        >
+      </section>
+    </main>
+    <!-- skills -->
+    <section id="skills">
+      <div class="hard-skills-container">
+        <h3>Hard Skills</h3>
+        <div class="hard-skills">
+          <div class="skills-icon">
+            <i class="fab fa-html5"></i>
+            <h4>HTML5</h4>
+          </div>
+          <div class="skills-icon">
+            <i class="fab fa-css3"></i>
+            <h4>CSS3</h4>
+          </div>
+          <div class="skills-icon">
+            <i class="fab fa-js-square"></i>
+            <h4>JAVASCRIPT</h4>
+          </div>
+          <div class="skills-icon">
+            <i class="fab fa-git-square"></i>
+            <h4>GIT</h4>
+          </div>
+        </div>
+      </div>
+      <div class="soft-skills-container">
+        <h3>Soft Skills</h3>
+        <div class="hard-skills">
+          <div class="skills-icon">
+            <i class="fa-solid fa-people-arrows-left-right"></i>
+            <h4>Team Work</h4>
+          </div>
+          <div class="skills-icon">
+            <i class="fa-solid fa-comments"></i>
+            <h4>Comunicacion</h4>
+          </div>
+          <div class="skills-icon">
+            <i class="fa-solid fa-clock"></i>
+            <h4>Organizacion de tiempos</h4>
+          </div>
+          <div class="skills-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h4>Estudio Constante</h4>
+          </div>
+        </div>
       </div>
     </section>
-    <div class="wave"></div>
-    <div class="profile-pic"></div>
-  </div>
-  <!-- acerca de mi -->
-  <main id="about-main">
-    <section class="about-main-text">
-      <h2>Acerca de mi</h2>
-      <h3>Estudiante Frontend</h3>
-      <p>Soy Argentino , tengo 36 años y empeze mí trayectoria como auxiliar contable , continúe en otras áreas
-        distintas como asistente de agente de transporte aduanero y telemarketer . Actualmente estudio programación
-        Frontend enfocándome en profesionalizarme en esta area. Soy una persona curiosa , proactiva que le gusta
-        incorporar nuevos conocimientos y resolver problemas.</p>
-      <a href="assets/docs/cv-ezequiel-massa-dev.pdf" class="cv-btn" download="ezequiel massa dev CV">Download Cv</a
-        </section>
-  </main>
-  <!-- skills -->
-  <section id="skills">
-    <div class="hard-skills-container">
+    <!-- formacion -->
+    <section class="formacion" id="formacion">
+      <h2 class="formacion__title">
+        Formacion Academica <i class="fa-solid fa-marker"></i>
+      </h2>
 
-      <h3>Hard Skills</h3>
-      <div class="hard-skills">
-
-        <div class="skills-icon">
-          <i class="fab fa-html5"></i>
-          <h4>HTML5</h4>
+      <div class="formacion__container">
+        <div class="formacion__container__item">
+          <div class="formacion__imagen orc"></div>
+          <p class="formacion__descripcion">Desarrollador Frontend</p>
+          <p class="formacion__descripcion">En Curso</p>
+          <a
+            href="https://www.oracle.com/ar/education/oracle-next-education/"
+            target="blank"
+            class="formacion__masInfo"
+            >Mas info</a
+          >
         </div>
-        <div class="skills-icon">
-          <i class="fab fa-css3"></i>
-          <h4>CSS3</h4>
+        <div class="formacion__container__item">
+          <div class="formacion__imagen alu"></div>
+          <p class="formacion__descripcion">Desarrollador Frontend</p>
+          <p class="formacion__descripcion">En Curso</p>
+          <a
+            href="https://www.aluracursos.com/"
+            target="blank"
+            class="formacion__masInfo"
+            >Mas info</a
+          >
         </div>
-        <div class="skills-icon">
-          <i class="fab fa-js-square"></i>
-          <h4>JAVASCRIPT</h4>
-        </div>
-        <div class="skills-icon">
-          <i class="fab fa-git-square"></i>
-          <h4>GIT</h4>
-        </div>
-      </div>
-    </div>
-    <div class="soft-skills-container">
-
-      <h3>Soft Skills</h3>
-      <div class="hard-skills">
-
-        <div class="skills-icon">
-          <i class="fa-solid fa-people-arrows-left-right"></i>
-          <h4>Team Work</h4>
-        </div>
-        <div class="skills-icon">
-          <i class="fa-solid fa-comments"></i>
-          <h4>Comunicacion</h4>
-        </div>
-        <div class="skills-icon">
-          <i class="fa-solid fa-clock"></i>
-          <h4>Organizacion de tiempos</h4>
-        </div>
-        <div class="skills-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
-          <h4>Estudio Constante</h4>
+        <div class="formacion__container__item">
+          <div class="formacion__imagen ap"></div>
+          <p class="formacion__descripcion">Desarrollador Fullstack Jr</p>
+          <p class="formacion__descripcion">En Curso</p>
+          <a
+            href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+            target="blank"
+            class="formacion__masInfo"
+            >Mas info</a
+          >
         </div>
       </div>
-    </div>
-  </section>
-  <!-- formacion -->
-  <section class="formacion" id="formacion">
-    <h2 class="formacion__title">Formacion Academica <i class="fa-solid fa-marker"></i></h2>
-
-    <div class="formacion__container">
-      <div class="formacion__container__item">
-        <div class="formacion__imagen orc"></div>
-        <p class="formacion__descripcion">Desarrollador Frontend</p>
-        <p class="formacion__descripcion">En Curso</p>
-        <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="blank" class="formacion__masInfo">Mas
-          info</a>
-      </div>
-      <div class="formacion__container__item">
-      <div class="formacion__imagen alu"></div>
-      <p class="formacion__descripcion">Desarrollador Frontend</p>
-      <p class="formacion__descripcion">En Curso</p>
-      <a href="https://www.aluracursos.com/" target="blank" class="formacion__masInfo">Mas info</a>
-      </div>
-      <div class="formacion__container__item">
-      <div class="formacion__imagen ap"></div>
-      <p class="formacion__descripcion">Desarrollador Fullstack Jr</p>
-      <p class="formacion__descripcion">En Curso</p>
-      <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
-        target="blank" class="formacion__masInfo">Mas info</a>
+    </section>
+    <!-- proyectos -->
+    <section class="proyectos">
+      <div class="proyectos__container" id="proyectos">
+        <div class="proyectos__container__item">
+          <h3 class="proyectos__titulo">APP Encriptadora de texto</h3>
+          <p class="proyectos__descripcion">
+            Primer Challenge de "Oracle ONE" donde se solicito crear una APP
+            capaz de codificar un texto introducido por el usuario siguiendo
+            ciertas validaciones , implementando un diseño brindado en "figma".
+            te invito a explorarlo!
+          </p>
         </div>
-    </div>
-
-  </section>
-  <!-- proyectos -->
-  <section class="proyectos" >
-    <div class="proyectos__container" id="proyectos">
-      <div class="proyectos__container__item">
-        <h3 class="proyectos__titulo">APP Encriptadora de texto</h3>
-        <p class="proyectos__descripcion">Primer Challenge de "Oracle ONE" donde se solicito crear una APP capaz de
-          codificar un texto introducido por el usuario siguiendo ciertas validaciones , implementando un diseño brindado
-          en "figma". te invito a explorarlo!</p>
-      </div>
-      <div class="proyectos__img__container">
-        <div class="proyectos__img--overlay"> 
-          <a class="proyectos__img--overlay__btn" href="https://ezequielmassa.github.io/ChallengeOneLogicaLatam/"
-            target="blank">Ver Demo</a>
-          <a class="proyectos__img--overlay__btn" href="https://github.com/EzequielMassa/ChallengeOneLogicaLatam.git" target="blank">Ver Repositorio</a>
+        <div class="proyectos__img__container">
+          <div class="proyectos__img--overlay">
+            <a
+              class="proyectos__img--overlay__btn"
+              href="https://ezequielmassa.github.io/ChallengeOneLogicaLatam/"
+              target="blank"
+              >Ver Demo</a
+            >
+            <a
+              class="proyectos__img--overlay__btn"
+              href="https://github.com/EzequielMassa/ChallengeOneLogicaLatam.git"
+              target="blank"
+              >Ver Repositorio</a
+            >
+          </div>
+          <img
+            src="assets/images/encriptador.PNG"
+            alt="imagen de proyecto encriptador"
+            class="proyectos__img"
+          />
         </div>
-        <img src="assets/images/encriptador.PNG" alt="imagen de proyecto encriptador" class="proyectos__img ">
-      </div>
-      <div class="proyectos__container__item">
-        <h3 class="proyectos__titulo">APP Juego del ahorcado</h3>
-        <p class="proyectos__descripcion">Segundo Challenge de "Oracle ONE" donde se solicito crear el clasico juego del
-          ahorcado siguiendo ciertas validaciones como asi tambien un diseño proporcionado en "figma".te invito a
-          explorarlo!</p>
-      </div>
-      <div class="proyectos__img__container">
-        <div class="proyectos__img--overlay"> 
-          <a class="proyectos__img--overlay__btn" href="https://ezequielmassa.github.io/Challenge-HangMan-ORACLE-one/"
-            target="blank">Ver Demo</a>
-          <a class="proyectos__img--overlay__btn" href="https://github.com/EzequielMassa/Challenge-HangMan-ORACLE-one.git" target="blank">Ver Repositorio</a>
+        <div class="proyectos__container__item">
+          <h3 class="proyectos__titulo">APP Juego del ahorcado</h3>
+          <p class="proyectos__descripcion">
+            Segundo Challenge de "Oracle ONE" donde se solicito crear el clasico
+            juego del ahorcado siguiendo ciertas validaciones como asi tambien
+            un diseño proporcionado en "figma".te invito a explorarlo!
+          </p>
         </div>
-        <img src="assets/images/ahorcado.png" alt="imagen de proyecto encriptador" class="proyectos__img ">
+        <div class="proyectos__img__container">
+          <div class="proyectos__img--overlay">
+            <a
+              class="proyectos__img--overlay__btn"
+              href="https://ezequielmassa.github.io/Challenge-HangMan-ORACLE-one/"
+              target="blank"
+              >Ver Demo</a
+            >
+            <a
+              class="proyectos__img--overlay__btn"
+              href="https://github.com/EzequielMassa/Challenge-HangMan-ORACLE-one.git"
+              target="blank"
+              >Ver Repositorio</a
+            >
+          </div>
+          <img
+            src="assets/images/ahorcado.png"
+            alt="imagen de proyecto encriptador"
+            class="proyectos__img"
+          />
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- contacto -->
-  <section class="contacto" id="contacto">
-    <img class="wave-end" src="assets/images/wave2.svg" alt="imagen decorativa">
-<h2 class="contacto__titulo">Contactame</h2>
-<form action="https://formsubmit.co/ezequielmassa.dev@gmail.com" method="POST" id="contacto__formulario" class="contacto__formulario" autocomplete="off">
-  <div class="contacto__formulario__item">
-    <div class="input__container contacto__formulario__item">
-      <label class="contacto__formulario__label" for="name">Nombre</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="input-pattern input-text-validate"
-                    placeholder="Ingrese su nombre"
-                    minlength="3"
-                    maxlength="50"
-                    required
-                    data-type="nombre"
-                  />
-                  <span class="error__mensaje error"></span>
-    </div>
-                <div class="input__container contacto__formulario__item">
-                  <label class="contacto__formulario__label" for="correo">Email</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="correo"
-                    class="input-pattern input-text-validate"
-                    placeholder="ejemplo@email.com"
-                    maxlength="60"
-                    required
-                    data-type="email"
-                    pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
-                  />
-                   <span class="error__mensaje error"></span>
-                </div>
-                <div class="input__container contacto__formulario__item">
-                  <label class="contacto__formulario__label" for="asunto">Asunto</label>
-                  <input
-                    type="text"
-                    id="asunto"
-                    name="subject"
-                    class="input-pattern input-text-validate"
-                    placeholder="Ingrese el motivo"
-                    minlength="5"
-                    maxlength="50"
-                    data-type="asunto"
-                    required
-          
-                  />
-                   <span class="error__mensaje error"></span>
-                </div>
-  </div>
-               <div class="input__container contacto__formulario__item">
-                  <label class="contacto__formulario__label" for="mensaje">Mensaje</label>
-                 <textarea
-                 class="contacto__formulario__mensaje  input-text-validate"
-                  form="contacto__formulario"
-                  name="mensaje"
-                  id="mensaje"
-                  placeholder="Escribe un mensaje..."
-                  cols="30"
-                  rows="10"
-                  required
-                  minlength="9"
-                  maxlength="300"
-                   data-type="mensaje"></textarea>
-                 <span class="error__mensaje error"></span>
-               </div>
-               <input
-              id="enviar-form"
-              class="contacto__formulario__enviar"
-              type="submit"
-              value="Enviar"
-              data-send
-             
+    </section>
+    <!-- contacto -->
+    <section class="contacto" id="contacto">
+      <img
+        class="wave-end"
+        src="assets/images/wave2.svg"
+        alt="imagen decorativa"
+      />
+      <h2 class="contacto__titulo">Contactame</h2>
+      <form
+        action="https://formsubmit.co/ezequielmassa.dev@gmail.com"
+        method="POST"
+        id="contacto__formulario"
+        class="contacto__formulario"
+        autocomplete="off"
+      >
+        <div class="contacto__formulario__item">
+          <div class="input__container contacto__formulario__item">
+            <label class="contacto__formulario__label" for="name">Nombre</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-pattern input-text-validate input__nombre"
+              placeholder="Ingrese su nombre"
+              minlength="3"
+              maxlength="50"
+              required
+              data-type="nombre"
             />
-</form>
-  </section>
-  <!-- footer -->
-  <footer class="main__footer">
-     <p class="main__footer__text">
-        Creado por <br>
-        <img class="main__footer__logo" src="assets/images/logo.png" alt="logo del Desarrolador" />
-        <span class="main__footer__name">Ezequiel Massa</span> <br>
-        <a class="main__footer__link" href="https://www.linkedin.com/in/ezequiel-massa-dev/" target="blank"
+            <span class="error__mensaje error"></span>
+          </div>
+          <div class="input__container contacto__formulario__item">
+            <label class="contacto__formulario__label" for="correo"
+              >Email</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="correo"
+              class="input-pattern input-text-validate input__email"
+              placeholder="ejemplo@email.com"
+              maxlength="60"
+              required
+              data-type="email"
+              pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            />
+            <span class="error__mensaje error"></span>
+          </div>
+          <div class="input__container contacto__formulario__item">
+            <label class="contacto__formulario__label" for="asunto"
+              >Asunto</label
+            >
+            <input
+              type="text"
+              id="asunto"
+              name="subject"
+              class="input-pattern input-text-validate input__asunto"
+              placeholder="Ingrese el motivo"
+              minlength="5"
+              maxlength="50"
+              data-type="asunto"
+              required
+            />
+            <span class="error__mensaje error"></span>
+          </div>
+        </div>
+        <div class="input__container contacto__formulario__item">
+          <label class="contacto__formulario__label" for="mensaje"
+            >Mensaje</label
+          >
+          <textarea
+            class="contacto__formulario__mensaje input-text-validate input__mensaje"
+            form="contacto__formulario"
+            name="mensaje"
+            id="mensaje"
+            placeholder="Escribe un mensaje..."
+            cols="30"
+            rows="10"
+            required
+            minlength="9"
+            maxlength="300"
+            data-type="mensaje"
+          ></textarea>
+          <span class="error__mensaje error"></span>
+        </div>
+        <input
+          id="enviar-form"
+          class="contacto__formulario__enviar"
+          type="submit"
+          value="Enviar"
+          data-send
+          disabled
+        />
+      </form>
+    </section>
+    <!-- footer -->
+    <footer class="main__footer">
+      <p class="main__footer__text">
+        Creado por <br />
+        <img
+          class="main__footer__logo"
+          src="assets/images/logo.png"
+          alt="logo del Desarrolador"
+        />
+        <span class="main__footer__name">Ezequiel Massa</span> <br />
+        <a
+          class="main__footer__link"
+          href="https://www.linkedin.com/in/ezequiel-massa-dev/"
+          target="blank"
           ><i class="fab fa-linkedin"></i
         ></a>
-        <a class="main__footer__link" href="https://www.instagram.com/ezequielmassa.dev/" target="blank"
+        <a
+          class="main__footer__link"
+          href="https://www.instagram.com/ezequielmassa.dev/"
+          target="blank"
           ><i class="fab fa-instagram"></i
         ></a>
-        <a class="main__footer__link" href="https://github.com/EzequielMassa" target="blank"
+        <a
+          class="main__footer__link"
+          href="https://github.com/EzequielMassa"
+          target="blank"
           ><i class="fab fa-github"></i
-        ></a> <br>
+        ></a>
+        <br />
         &#169; 2022
       </p>
-  </footer>
-  <script type="module" src="js/main.js"></script>
-</body>
-
+    </footer>
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>
