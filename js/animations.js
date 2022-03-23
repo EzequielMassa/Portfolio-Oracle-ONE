@@ -34,7 +34,7 @@ export const sectionLoad = (entries, observer) => {
 const observer = new IntersectionObserver(sectionLoad, {
   root: null,
   rootMargin: "100px 0px 100px 0px",
-  threshold: 1.0,
+  threshold: 0.8,
 });
 
 observer.observe(mainSection);
