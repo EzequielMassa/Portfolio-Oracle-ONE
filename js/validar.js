@@ -20,6 +20,7 @@ const errorTypes = ["valueMissing", "typeMismatch", "patternMismatch"];
 const mensajesError = {
   nombre: {
     valueMissing: "El campo nombre no puede estar vacio.",
+    patternMismatch: "Ingrese al menos 3 letras, no se permiten numeros",
   },
   email: {
     valueMissing: "El campo correo no puede estar vacio.",
@@ -28,9 +29,11 @@ const mensajesError = {
   },
   asunto: {
     valueMissing: "El campo asunto no puede estar vacio.",
+    patternMismatch: "Ingrese al menos 5 caracteres",
   },
   mensaje: {
     valueMissing: "El campo mensaje no puede estar vacio.",
+    patternMismatch: "Ingrese al menos 5 caracteres",
   },
 };
 

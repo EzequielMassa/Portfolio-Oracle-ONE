@@ -364,6 +364,7 @@
               minlength="3"
               maxlength="50"
               required
+              pattern="\w\D{3,50}"
               data-type="nombre"
             />
             <span class="error__mensaje error"></span>
@@ -397,6 +398,7 @@
               placeholder="Ingrese el motivo"
               minlength="5"
               maxlength="50"
+              pattern="\w{5,50}"
               data-type="asunto"
               required
             />
