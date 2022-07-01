@@ -1,14 +1,15 @@
 .proyectos__titulo {
-  color: var(--main-color);
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 0.5em;
+	color: var(--main-color);
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 2rem;
+	text-align: center;
+	margin-bottom: 0.5em;
 }
 
 /* responsive */
 @media only screen and (min-width: 768px) {
-  .proyectos__titulo {
-    text-align: left;
-  }
+	.proyectos__titulo {
+		text-align: left;
+	}
 }
