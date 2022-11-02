@@ -1,6 +1,8 @@
 .hero-presentation {
 	padding: 10% 2em;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
 
 /* responsive */
@@ -8,7 +10,7 @@
 @media only screen and (max-width: 768px) {
 	.hero-presentation {
 		text-align: left;
-		padding: 5% 2em 10% 2em;
+		padding: 35% 2em 10% 2em;
 	}
 }
 @media only screen and (min-width: 769px) {
